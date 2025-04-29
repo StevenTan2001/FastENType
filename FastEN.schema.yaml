@@ -1,0 +1,49 @@
+# Rime schema
+# encoding: utf-8
+#
+# 最簡單的 Rime 輸入方案
+#
+
+schema:
+  schema_id: FastEN    # 注意此ID與文件名裏 .schema.yaml 之前的部分相同
+  name: FastENType        # 將在〔方案選單〕中顯示
+  version: "2"        # 這是文字類型而非整數或小數，如 "1.2.3"
+  
+  
+ 
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ Fast, Full ]
+  - name: full_shape
+    states: [ Half-width, full-width ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - key_binder  # 搶在其他 processor 處理之前判定是否換頁用的符號鍵
+    #- punctuator  # 否則「，。」就會由此上屏
+    - speller          # 把字母追加到編碼串
+    - selector         # 選字、換頁
+    - navigator        # 移動插入點
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - abc_segmentor       # 標記輸入碼的類型
+    #- punct_segmentor
+    - fallback_segmentor
+  translators:
+    - echo_translator  # （無有其他結果時，）創建一個與編碼串一個模樣的候選項
+    #- punct_translator
+    - table_translator    # 碼表式轉換
+
+translator:
+  dictionary: FastEN_V2       # 設定 table_translator 使用的詞典名
+  
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
