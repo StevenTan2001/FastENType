@@ -17,8 +17,9 @@ It is a simpler and faster English inputting method based on `Rime`.
 
 
 # Installation
-Add `- schema: FastEN` under `schema_list:` in `Rime/default.yaml`.
-Unzip `FastEN_V2.dict.yaml` and move the file into `Rime/`.
-Move `FastEN.schema.yaml` into `Rime/`.
+Add `- schema: FastEN` under `schema_list:` in `Rime/default.yaml`.  
+Unzip `FastEN_V2.dict.yaml` and move the file into `Rime/`.  
+Move `FastEN.schema.yaml` into `Rime/`.  
+
 
 This is my first time uploading files on Github. I am not professional on coding. For codes, some of which are generated/optimised by Microsoft Copilot. I would like to apologize first for the potential inconveniences, and I appreciate any suggestions on the input method!
