@@ -1,5 +1,5 @@
 # FastENType
-It is a simpler and faster English inputting method based on rime.
+It is a simpler and faster English inputting method based on `Rime`.
 
 
 # How to type? Here are some instructions:
@@ -15,3 +15,10 @@ It is a simpler and faster English inputting method based on rime.
 10. If punctuation occurs in a word (e.g, “-“), type words before and after the punctuation separately.
 11. Alternative method with a plural word: if a word exist and does not end with an _s_, then type _s_ after a word can give a word followed by _s_. E.g., to input word "conditions", you can type _cdts_ or _cdtns_.
 
+
+# Installation
+Add `- schema: FastEN` under `schema_list:` in `Rime/default.yaml`.
+Unzip `FastEN_V2.dict.yaml` and move the file into `Rime/`.
+Move `FastEN.schema.yaml` into `Rime/`.
+
+This is my first time uploading files on Github. I am not professional on coding. For codes, some of which are generated/optimised by Microsoft Copilot. I would like to apologize first for the potential inconveniences, and I appreciate any suggestions on the input method!
