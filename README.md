@@ -17,6 +17,13 @@ It is a simpler and faster English inputting method based on `Rime`.
 
 
 # Installation
+Please install `Rime` first.
+
+Refer `https://github.com/rime`
+Refer `https://rime.im`
+
+
+
 Add `- schema: FastEN` under `schema_list:` in `Rime/default.yaml`.  
 Unzip `FastEN_V2.dict.yaml` and move the file into `Rime/`.  
 Move `FastEN.schema.yaml` into `Rime/`.  
