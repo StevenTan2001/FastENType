@@ -19,7 +19,7 @@ It is a simpler and faster English inputting method based on `Rime`.
 # Installation
 Please install `Rime` first.
 
-Refer `https://github.com/rime`
+Refer `https://github.com/rime`  
 Refer `https://rime.im`
 
 
