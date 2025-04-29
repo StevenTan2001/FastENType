@@ -34,4 +34,4 @@ Run FastENBuilder_PublicVersion.py in Python. Refer the comments in the file.
 
 ---
 
-This is my first time uploading files on Github. I am not professional on coding. For codes, some of which are generated/optimised by Microsoft Copilot. I would like to apologize first for the potential inconveniences, and I appreciate any suggestions on the input method!
+This is my first time uploading files on Github. I am not professional on coding. For codes, some of which are generated/optimised by Github Copilot. I would like to apologize first for the potential inconveniences, and I appreciate any suggestions on the input method!
