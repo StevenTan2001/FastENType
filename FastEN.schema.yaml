@@ -16,7 +16,7 @@ switches:
     reset: 0
     states: [ Fast, Full ]
   - name: full_shape
-    states: [ Half-width, full-width ]
+    states: [ Half-width, Full-width ]
   - name: ascii_punct
     states: [ 。，, ．， ]
 
